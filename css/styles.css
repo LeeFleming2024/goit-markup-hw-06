@@ -34,7 +34,7 @@ img {
     height: auto;
 }
 
-section{
+section {
     padding: 72px 0;
 }
 
@@ -42,7 +42,6 @@ section{
     max-width: 320px;
     padding: 0 16px;
     margin: 0 auto;
-    
 }
 
 @media screen and (min-width:768px) {
@@ -318,7 +317,7 @@ section{
     padding: 72px 0;
     background-repeat: no-repeat;
     background-position: center center;
-    /* background-size: cover; */
+    background-size: cover;
     min-width: 320px;
 }
 
@@ -485,6 +484,10 @@ section{
     display: flex;
     justify-content: center;
     gap: 24px;
+}
+
+.img-team {
+    width: 100%;
 }
 
 .icons-item {
@@ -1113,7 +1116,7 @@ section{
         min-width: 496px;
     }
 
-    .main-section-oun {
+    .main-section-one {
         background-image: linear-gradient(to bottom,
                 rgba(46, 47, 66, 0.7),
                 rgba(46, 47, 66, 0.7)),
@@ -1122,11 +1125,11 @@ section{
     }
     
     @media (min-resolution: 192dpi) {
-    .main-section-oun {
+    .main-section-one {
         background-image: linear-gradient(to bottom,
                 rgba(46, 47, 66, 0.7),
                 rgba(46, 47, 66, 0.7)),
-                url(../images/people-office-tablet@2x.jpg);
+                url(../images/people-office-tablet-2x.jpg);
         }     
     }
 
@@ -1155,7 +1158,8 @@ section{
     }
 
     .our-team-card {
-        width: calc((100% - 24px) / 2);
+        /* width: calc((100% - 24px) / 2); */
+        width: 296px;
         margin-bottom: 0;
     }
 
@@ -1246,12 +1250,12 @@ section{
         line-height: 150%;
     }
 
-    .main-section-oun{
-        background-image:linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office\ 1pk-min.jpg) ;
+    .main-section-one{
+        background-image:linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office-1pk-min.jpg) ;
     }
 
 @media (min-resolution: 192dpi) {
-    .main-section-oun {
+    .main-section-one {
         background-image: linear-gradient(to bottom,
                 rgba(46, 47, 66, 0.7),
                 rgba(46, 47, 66, 0.7)),
