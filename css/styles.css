@@ -318,7 +318,7 @@ section{
     padding: 72px 0;
     background-repeat: no-repeat;
     background-position: center center;
-    background-size: cover;
+    /* background-size: cover; */
     min-width: 320px;
 }
 
